@@ -12,7 +12,9 @@ it is launched will mean eschewing the content and discounts. To allow consumers
 want to minimize the risk by recommending whether to buy a game or not.
 
 To do so, we formulate the following question:
-* Can we predict how well received is a game (users' reviews are "mostly positive") based on its attributes?
+* Are we able to predict if a game is good or bad based on its attributes?
+* Which machine learning model would be the best.
+
 
 ## Models Used
 
