@@ -5,17 +5,17 @@ the [Steam Games Dataset](https://www.kaggle.com/datasets/trolukovich/steam-game
 
 ## Motivation & Problem Statement
 
-Pre-ordering and buying games early is risky. Consumers cannot predict how "good" the game will be. On steam, consumers
-often use `users' reviews` as a proxy metric for how "good" a game is. However, this metric needs to be aggregated and is
-often only available a few days after launch. To make pre-ordering and buying games early less risky, we want to predict
-how "good" a game is based on `users' reviews` as a proxy.
+Pre-ordering a game is risky. Consumers cannot predict how "good" a game will be. On Steam, the `users' reviews` score
+is often used as proxy metric for that. However, this metric is only available a few days after a game is launched.
+Developers often offer exclusive in-game content and discounts to incentivize pre-ordering. Hence, purchasing game after
+it is launched will mean eschewing the content and discounts. To allow consumers to reap the pre-ordering benefits, we
+want to minimize the risk by recommending whether to buy a game or not.
 
 To do so, we formulate the following question:
 * Can we predict how well received is a game (users' reviews are "mostly positive") based on its attributes?
 
 ## Models Used
 
-* Linear Regression
 * Decision Tree
 * Logistic Regression
 * Random Forest Regression
@@ -28,10 +28,11 @@ TODO
 
 * [One-hot encoding](https://en.wikipedia.org/wiki/One-hot) to encode columns that contain a list of values.
 * [Pickle](https://docs.python.org/3/library/pickle.html) file format for serializing/deserializing prepared data efficiently.
-* Logistic Regression and Random Forest Regression machine learning models
-* Principal component analysis (PCA) for dimensionality reduction of data
-* Ensemble learning to improve predictive performance of our models
-* Resampling of dataset, including the original ratio, oversampling & balanced resampling
+* Logistic Regression and Random Forest Regression machine learning models.
+* Principal component analysis (PCA) for dimensionality reduction of data.
+* Ensemble learning to improve predictive performance of our models.
+* Resampling of dataset, including the original ratio, oversampling & balanced resampling.
+* Data clustering methods such as K-means clustering.
 
 ## Contributors
 
