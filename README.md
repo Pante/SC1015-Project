@@ -43,7 +43,7 @@ To do so, we formulate the following question:
 
 ## Contributors
 
-* [Isaac Tan (Peanutpiggy)](https://github.com/Peanutpiggy) - Machine Learning, writing script, making slides for presentation, and do the presentation 
+* [Isaac Tan (Peanutpiggy)](https://github.com/Peanutpiggy) - Machine Learning, writing script, making slides for presentation, and presentation
 * [Matthew Heng (matt0781)](https://github.com/matt0781) - Data Visualization, Data Resampling, and Machine Learning
 * [Matthias Ngeo (Pante)](https://github.com/Pante) - Crafting problem statement, data preparation, proofreading & summarizing findings
 
