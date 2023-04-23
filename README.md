@@ -13,8 +13,7 @@ want to minimize the risk by recommending whether to buy a game or not.
 
 To do so, we formulate the following question:
 * Are we able to predict if a game is good or bad based on its attributes?
-* Which machine learning model would be the best.
-
+* Which machine learning model would be the best at predicting it?
 
 ## Models Used
 
@@ -23,8 +22,11 @@ To do so, we formulate the following question:
 * Random Forest Regression
 
 ## Conclusion
-
-TODO
+* There is no correlation between price and how well received is a game.
+* Massively multiplayer (MMOs) games tend to receive lower scores than other genres.
+* Sekai Project and SCS Software tend to produce more well received games compared to other publishers.
+* Resampling imbalanced data drastically improved performance in most cases.
+* Logistical Regression isn't the best at handling non-linear correlations.
 
 ## Learning Points
 
@@ -36,13 +38,14 @@ TODO
 * Logistic Regression and Random Forest Regression machine learning models.
 * Ensemble learning to improve predictive performance of our models.
 * Recall as a main metrics instead of Accuracy to judge our models. 
-* Differences between each metrics (Accuracy, Recall, Precision, and F1-score).
+* Cross validation & hyper-tuning of models.
+* Concepts about Precision, Recall, and F1 Score.
 
 ## Contributors
 
 * [Isaac Tan (Peanutpiggy)](https://github.com/Peanutpiggy) - Machine Learning, writing script, making slides for presentation, and do the presentation 
 * [Matthew Heng (matt0781)](https://github.com/matt0781) - Data Visualization, Data Resampling, and Machine Learning
-* [Matthias Ngeo (Pante)](https://github.com/Pante) - Crafting problem statement, data preparation & summarizing findings
+* [Matthias Ngeo (Pante)](https://github.com/Pante) - Crafting problem statement, data preparation, proofreading & summarizing findings
 
 ## References
 * https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/
