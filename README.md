@@ -18,8 +18,8 @@ To do so, we formulate the following question:
 
 ## Models Used
 
-* Decision Tree
 * Logistic Regression
+* Decision Tree
 * Random Forest Regression
 
 ## Conclusion
@@ -28,18 +28,20 @@ TODO
 
 ## Learning Points
 
-* [One-hot encoding](https://en.wikipedia.org/wiki/One-hot) to encode columns that contain a list of values.
+* [One-hot encoding](https://www.geeksforgeeks.org/ml-one-hot-encoding-of-datasets-in-python/) to encode columns that contain a list of values or objects.
 * [Pickle](https://docs.python.org/3/library/pickle.html) file format for serializing/deserializing prepared data efficiently.
-* Logistic Regression and Random Forest Regression machine learning models.
-* Principal component analysis (PCA) for dimensionality reduction of data.
-* Ensemble learning to improve predictive performance of our models.
-* Resampling of dataset, including the original ratio, oversampling & balanced resampling.
+* Principal component analysis (PCA) for dimensionality reduction of data (before using K-means for data clustering).
 * Data clustering methods such as K-means clustering.
+* Resampling of dataset, including the original ratio, oversampling & balanced resampling.
+* Logistic Regression and Random Forest Regression machine learning models.
+* Ensemble learning to improve predictive performance of our models.
+* Recall as a main metrics instead of Accuracy to judge our models. 
+* Differences between each metrics (Accuracy, Recall, Precision, and F1-score).
 
 ## Contributors
 
-* [Isaac Tan (Peanutpiggy)](https://github.com/Peanutpiggy) - 
-* [Matthew Heng (matt0781)](https://github.com/matt0781) - 
+* [Isaac Tan (Peanutpiggy)](https://github.com/Peanutpiggy) - Machine Learning, writing script, making slides for presentation, and do the presentation 
+* [Matthew Heng (matt0781)](https://github.com/matt0781) - Data Visualization, Data Resampling, and Machine Learning
 * [Matthias Ngeo (Pante)](https://github.com/Pante) - Crafting problem statement, data preparation & summarizing findings
 
 ## References
@@ -50,3 +52,5 @@ TODO
 * https://www.sartorius.com/en/knowledge/science-snippets/what-is-principal-component-analysis-pca-and-how-it-is-used-507186
 * https://machinelearningmastery.com/tour-of-ensemble-learning-algorithms/
 * https://www.kaggle.com/code/rafjaa/resampling-strategies-for-imbalanced-datasets/notebook
+* https://github.com/nicklimmm/movie-analysis/blob/main/README.md
+* Exercise 6: Walk-Through Notebook, SC1015 Introduction to Data Science and Artificial Intelligence, Nanyang Technological University, Singapore 2023. 
